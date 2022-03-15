@@ -15,6 +15,7 @@
     "express-ejs-layouts": "^2.5.1"
   },
   "devDependencies": {
+    "laravel-mix": "^6.0.43",
     "nodemon": "^2.0.15"
   }
 }
