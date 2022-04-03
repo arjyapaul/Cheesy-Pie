@@ -1,0 +1,65 @@
+[{
+    "_id": {
+      "$oid": "5eee651f739f8c674fd736ee"
+    },
+    "name": "Farmhouse Deluxe",
+    "image": "pizza1.png",
+    "price": "299",
+    "size": "regular"
+  },{
+    "_id": {
+      "$oid": "5eee6671a27a66807cf2bea3"
+    },
+    "name": "Chicken Barbeque",
+    "image": "pizza2.png",
+    "price": "499",
+    "size": "large"
+  },{
+    "_id": {
+      "$oid": "5eee6692a27a66807cf2bea4"
+    },
+    "name": "Peppy Paneer",
+    "image": "pizza3.png",
+    "price": "149",
+    "size": "small"
+  },{
+    "_id": {
+      "$oid": "5eee66a5a27a66807cf2bea5"
+    },
+    "name": "Chicken Delight",
+    "image": "pizza4.png",
+    "price": "199",
+    "size": "regular"
+  },{
+    "_id": {
+      "$oid": "5eee66c4a27a66807cf2bea6"
+    },
+    "name": "Mushroom Delight",
+    "image": "pizza5.png",
+    "price": "149",
+    "size": "small"
+  },{
+    "_id": {
+      "$oid": "5eee66cfa27a66807cf2bea7"
+    },
+    "name": "Cheesy Margharita",
+    "image": "pizza6.png",
+    "price": "199",
+    "size": "regular"
+  },{
+    "_id": {
+      "$oid": "5eee66eea27a66807cf2bea8"
+    },
+    "name": "Tomato Twist",
+    "image": "pizza7.png",
+    "price": "99",
+    "size": "regular"
+  },{ 
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2bea9"
+    },
+    "name": "Chicken Fantasy",
+    "image": "pizza8.png",
+    "price": "349",
+    "size": "medium"
+  }]
