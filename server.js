@@ -8,6 +8,7 @@ const mongoose=require('mongoose')
 const session=require('express-session')
 const flash=require('express-flash')
 const MongoDbStore=require('connect-mongo')
+const passport=require('passport')
 const PORT= process.env.PORT || 5000
 
 //database connection
@@ -19,6 +20,12 @@ connection.once('open',()=>{
 }).on('error',function(err){
     console.log('Database disconnected...')
 });
+
+//passport config
+const passportInit=require('./app/config/passport')
+passportInit(passport)
+app.use(passport.initialize())
+
 
 //session store
 // let mongoStore=new MongoDbStore({
@@ -36,7 +43,7 @@ app.use(session({
     saveUninitialized:false,
     cookie:{maxAge:1000*60*60*24} //24 hours
 }))
-
+app.use(passport.session())
 app.use(flash())
 
 //assets
